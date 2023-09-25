@@ -115,30 +115,30 @@ s1='strings are IMMUTABLE so, methods of strings cannot change the original stri
 # royal
 # technosoft
 'Students of this batch are going to rock the INDIAN software industry!'
-s1='students .of this batch are going to rock the INDIAN software industry!'
 
 
-output: s1 bdha first letters capitilize
-        indian in lower case
-        all the s1 string should in upper case
-        all the s1 string should be in lower case
-        software industry  in uppercase
 
+# output: s1 bdha first letters capitilize
+#         indian in lower case
+#         all the s1 string should in upper case
+#         all the s1 string should be in lower case
+#         software industry  in uppercase
+s1='Students .of this batch are going to rock the INDIAN software industry!'
 # indian
-
+# class--capitize---()
 # s1[5]='abc'
 print(s1)
-print(s1.capitalize())
+# print(s1.capitalize())
 # print(len(s1))
-# # print(s2)	# strings are immutable so, methods of strings cannot change the original string. Instead, they will return a new string.
+# # print(s2)	# strings are IMM so, methods of strings cannot change the original string. Instead, they will return a new string.
 # print( s1.capitalize())
-# # # print( s1[5].capitalize())
+# print( s1[5].capitalize())
 print(s1.upper())
 print(s1.lower())
 print(s1.swapcase())
 print(s1.title())
 
-len(s1)
-print()
-input()
-type()
+# len(s1)
+# print()
+# input()
+# type()
