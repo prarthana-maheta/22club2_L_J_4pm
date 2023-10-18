@@ -3,6 +3,7 @@
 # for i in l1:
 #     print(i)
     # print("hello") if i == 4 else print("hii")
+
 # a=1
 # if a==1:
 #     print("a")
@@ -19,6 +20,7 @@
 #
 # if 5==3:
 #         print("5")
+
 #     elif 1==1:
 #         print("1")
 #     elif 6==2:
@@ -158,20 +160,27 @@
 # reason have a for loop with no content, put in
 # the pass statement to avoid getting an error.
 #
-# for x in [0, 1, 2]:
-#
-#     print(x)
 
+for x in [1,2,3]:
+    sum=x+x
+    if x ==1:
+        print("yes")
+    print(sum)
+
+# *
+# **
+# ***
 # having an empty for loop like this,
 # would raise an error without the pass statement
 
 # pop()
+# sum=[1,2,3,4,5]
+#
+# # The range()
+# # function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+# for x in range(len(sum)):
+#   print(sum[x+1])
 
-
-# The range()
-# function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
-# for x in range():
-#   print(x)
 # a=[1,2,3,4,5]
 #
 # for x in range(len(a)-1):
@@ -183,23 +192,23 @@
 # for x in range(2, 30, 3):
 #   print(x)
 
-Example 1: Print the first 10 natural numbers using for loop.
-Example 2: Python program to print all the even numbers within the given range.
-Example 3: Python program to calculate the sum of all numbers from 1 to a given number.
-Example 4: Python program to calculate the sum of all the odd numbers within the given range.
-Example 5: Python program to print a multiplication table of a given number
+# Example 1: Print the first 10 natural numbers using for loop.
+# Example 2: Python program to print all the even numbers within the given range.
+# Example 3: Python program to calculate the sum of all numbers from 1 to a given number.
+# Example 4: Python program to calculate the sum of all the odd numbers within the given range.
+# Example 5: Python program to print a multiplication table of a given number
 
 # input_data=int(input())
 #
 # for i in range(1,len(input_data)):
 
-
+# abc123bc
+#
 # Example 6: Python program to count the total number of digits in a number.
 # Example 7: Python program that accepts a word from the user and reverses it.
 # Example 8: Python program to count the number of even and odd numbers from a series of numbers.
 # Example 9: Python program to find the factorial of a given number.
-
-
+# 545151251515151515
 
 
 
@@ -373,11 +382,23 @@ Example 5: Python program to print a multiplication table of a given number
 # # of all number
 # # set the factorial to 1
 # factorial = 1
-#
+
 # # iterate till the given number
 # for i in range(1, given_number + 1):
 #     factorial = factorial * i
 #     print(factorial)
 #
 # print("The factorial of ", given_number, " is ", factorial)
+
+
+s="abc"
+# s.reverse()
+# print(s)
+# print("".join(list(reversed(s))))
+# print(s[::-1])
+# s1=""
+# for i in s:
+#     if i not in s1:
+#         s1=i+s1
+# print(s1)
 
