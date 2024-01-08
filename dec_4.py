@@ -164,10 +164,8 @@
 # # The string representation of an object WITH the __str__() function:
 # #
 class Person:
-  def __init__(self):
-      self.mydict={
-          'tithi':False,
-      }
+  def __init__(self,dict1):
+      self.mydict=dict1
     # self.name = name
     # self.age = age
 
@@ -179,7 +177,11 @@ class Person:
   def display(self):
     return self.mydict
 
-p1 = Person()
+dict1={
+          'tithi':False,
+
+      }
+p1 = Person(dict1)
 #
 p1.attend('nilay',True)
 p1.display()
@@ -206,3 +208,4 @@ mydict={
     jcsgycfv
 }
 a=Student(mydict)
+
