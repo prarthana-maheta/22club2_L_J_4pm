@@ -11,7 +11,7 @@
 # Note: Use dictionaries and lists to store the data.
 
 
-1 dict menu {'dish name':prize}
-1 dict tables {'table nme': position}
-1 dict orders {'token':[items,]}dhosa
+# 1 dict menu {'dish name':prize}
+# 1 dict tables {'table nme': position}
+# 1 dict orders {'token':[items,]}dhosa
 
